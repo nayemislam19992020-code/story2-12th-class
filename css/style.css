@@ -1,0 +1,700 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: "Oxygen", sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+.owl-carousel .owl-item{
+width: auto;
+height: auto;
+display: inherit;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "Source Sans 3", sans-serif;
+}
+a, a:hover {
+text-decoration: none;
+}
+/* top header section start here */
+header {
+width: 100%;
+padding: 5px 50px 0px 0px;
+}
+/* ========== Left Side (col-lg-5) ========== */
+header .col-lg-5 {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-left: 0px;
+left: 13%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+/* Logo */
+.navbar-brand img {
+height: 15px;
+width: auto;
+padding-left: 18px;
+}
+/* ========== Right Side (col-lg-7) ========== */
+header .col-lg-7 {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+text-align: right;
+left: 13%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+/* Right side icons & links */
+header .navbar-nav .nav-item {
+display: flex;
+align-items: center;
+
+}
+header .navbar-nav .nav-item img {
+height: 12px;
+width: auto;
+padding: 0px 0px 0px 20px;
+}
+header .navbar-nav .nav-link {
+padding: 5px;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+color: #212121;
+}
+/* Default navbar reset */
+.navbar {
+padding: 5px 50px 0px 0px;
+background: transparent;
+}
+.navbar-nav {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+/* top header section end here */
+/*  header section  here */
+.header-right {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 5px 50px 0px 0px;
+left: 13%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.header h1 {
+font-size: 36px;
+font-weight: 700;
+padding: 10px 50px 0px 0px;
+}
+.header h1 span {
+color: red;
+}
+.header h1{
+left: 35%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.search-form {
+max-width: 300px;
+width: 100%;
+padding: 40px 0px;
+}
+.search-form .form-control {
+font-size: 16px;
+padding: 4px 8px;
+}
+.cart-icon {
+width: 40px;
+height: auto;
+margin-right: 10px;
+}
+/* Cart Text */
+.cart-text {
+font-size: 20px;
+padding: 0px ;
+color: #212121;
+}
+/* header section end  here */
+/* header2 section  start here */
+.header2 .nav-list {
+list-style: none;
+padding: 0px 10px 0px 20px;
+margin: 0px;
+display: flex;
+left: 14%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.header2 .nav-item {
+display: inline-block;
+}
+.header2 .nav-link {
+text-decoration: none;
+color: #222222;
+font-size: 16px;
+font-weight: 800;
+transition: 0.3s;
+text-transform: uppercase;
+}
+.header2 .nav-link.active {
+color: red;
+}
+.header2 .nav-link:hover {
+color: red;
+}
+/* header2 section end  here */
+/* banner section start here */
+banner .item {
+width: 100%;
+padding: 60px 0px;
+position: relative;
+text-align: left;
+}
+.banner img {
+width: 120%;
+height: 80vh;
+object-fit: cover;
+}
+/* === Text positioning === */
+.banner h1 {
+position: absolute;
+top: 15%;
+left: 20%;
+color: #232323;
+font-size: 65px;
+font-weight: 500;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+z-index: 1;
+}
+.banner p {
+position: absolute;
+top: 45%;
+left: 20%;
+color: #303031;
+font-size: 14px;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+max-width: 400px;
+line-height: 1.6;
+z-index: 2;
+}
+.banner a {
+position: absolute;
+top: 60%;
+left: 8%;
+z-index: 2;
+}
+/* === Button style === */
+.banner .btn-primary {
+padding: 5px 5px;
+font-size: 10px;
+left: 20%;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+color: #fff;
+background: #000;
+border: 1px solid #111111;
+transition: all 0.3s ease-in-out;
+}
+.banner .btn-primary:hover,
+.banner .btn-primary:focus {
+color: #111111;
+background: #fff;
+border: 1px solid #111111;
+}
+.arrow {
+position: absolute;
+bottom: 140px;
+cursor: pointer;
+z-index: 10;
+}
+.arrow-left {
+left: 20px;
+}
+.arrow-right {
+right: 20px;
+}
+.arrow img {
+width: 20px;
+height: 20px;
+border: 2px solid #fff;
+border-radius: 5%;
+padding: 5px;
+background: rgba(0,0,0,0.4);
+}
+
+/* banner section end  here */
+/* category section start  here */
+.category{
+width: 100%;
+text-align: center;
+padding: 60px 0px;
+}.category .icons-row {
+display: grid;
+justify-content: center;
+gap: 5px;
+padding: 220px;
+margin-top: -430px;
+left: 10%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative; /* নিশ্চিত করুন position দেওয়া আছে যাতে left কাজ করে */
+}
+.category .icons-row.five { grid-template-columns: repeat(5, 120px); }
+.category .icons-row.one  { grid-template-columns: repeat(1, 120px); }
+.category .icons {
+width: 100px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0px;
+}
+.category .icons img {
+width: 60px;
+height: 60px;
+object-fit: contain;
+padding: 0px;
+left: 90%;
+}
+.category .icons h2 {
+font-size: 14px;
+margin: 0;
+color: #9f7e75;
+}
+.category .icons.view-more {
+background: #000;
+color: #fff;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.4;
+cursor: pointer;
+border: none;
+}
+.category .icons.view-more:hover {
+background: #333;
+}
+.category .icons.big {
+width: 200px;
+height: 200px;
+}
+.category .icons.big img {
+width: 400px;
+height: 400px;
+}
+.category{
+text-align: center;
+padding: 0px;
+}
+.category .title-box {
+background: #ba0015;
+color: #fff;
+padding: 10px 15px;
+width: 17%;
+height: auto;
+position: relative;
+top: -90px;
+left: 0;
+margin: 0;
+z-index: 5;
+border-radius: 5px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+left: 12%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.category .title-box h1 {
+font-size: 36px;
+margin: 0 0 3px 0;
+}
+.category .title-box p {
+font-size: 15px;
+margin: 0;
+padding: 0;
+}
+/* category section end  here */
+/* populer section start  here */
+.populer {
+width: 100%;
+padding: 60px 0px;
+position: relative;
+margin-top: -460px;
+z-index: 10;
+}
+.populer-wrapper {
+position: relative;
+width: 100%;
+height: 500px;
+}
+.populer-img {
+position: absolute;
+top: 0;
+left: -10%;
+width: 120%;   /* ডান দিক পর্যন্ত পুরো ঢেকে দেবে */
+height: 100%;
+object-fit: cover;
+border-radius: 5px;
+display: block;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.populer-text {
+position: absolute;
+top: 45%;
+left: 43%;
+padding: 2px 0px 60px;
+transform: translate(-125%, -70%);
+color: #fff;
+letter-spacing: 2px;
+font-size: 70px;
+font-weight: 600;
+text-align: center;
+text-transform: capitalize;
+text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+z-index: 20;
+}
+.populer-text i {
+font-size: 50px;
+font-weight: 700;
+display: block;
+}
+.populer-text span {
+position: relative;
+top: 20px;        /* যত নিচে নামাতে চাও, তত বাড়াও (যেমন 30px বা 40px) */
+font-size: 30px;
+font-weight: 500;
+}
+/* populer section end  here */
+/* brand section end  here */
+.populer {
+position: relative;
+z-index: 1;
+}
+.brand {
+width: 100%;
+padding: 60px 0px;
+background: #fff;
+position: relative;
+z-index: 2;
+}
+.brand .container {
+margin-top: -255px;
+}
+.brand .col-lg-12 {
+margin-left: 50px;
+margin-top: -50px;
+left: 7%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.brand img {
+width: 100%;
+height: auto;
+}
+.brand .title {
+text-align: center;
+margin: 10px;
+flex: 1;
+min-width: 200px;
+}
+.brand .title .p-details h4{
+font-size: 15px;
+font-weight: 300;
+color: #200e09;
+padding: 15px 0px 0px 0px;
+}
+.brand .title .p-details p{
+font-size: 15px;
+font-weight:800;
+color: #cb0000;
+}
+.brand .title:hover {
+transform: translateY(-10px);
+}
+/* brand section end  here */
+/* Arrivals section start  here */
+.Arrivals {
+width: 100%;
+padding: 120px 0px;
+background: #e6d9d0;
+margin-top: -50px; /* ↑ আগের সেকশনের ওপর overlap করবে */
+position: relative;
+z-index: 5; /* প্রয়োজনে উপরে রাখবে */
+}
+.Arrivals h5 {
+font-size: 50px;
+font-weight: 500;
+padding-left: 180px;
+margin-bottom: 8px;
+margin-top: -60px; /* 🔹 একটু উপরে তোলার জন্য */
+}
+.Arrivals p {
+font-size: 80px;
+font-weight: 900;
+margin-top: -10px; /* 🔹 আরও সামান্য উপরে */
+margin-bottom: 45px;
+padding-left: 110px;
+}
+/* Arrivals section end  here */
+/* brand2 section start here */
+.brand2 {
+width: 100%;
+padding: 60px 0px;
+background: #fff;
+position: relative;
+z-index: 5; /* উপরে রাখার জন্য */
+}
+.brand2 .container {
+margin-top: -150px; /* ← এই মানে overlap হবে, প্রয়োজনে -100 বা -180 করে দেখো */
+}
+.brand2 .col-lg-12 {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+left: 7%; /* আগে ছিল -120%, এখন -80% করে দেওয়া হলো যাতে ডানদিকে সরে যায় */
+position: relative;
+}
+.brand2 .title {
+text-align: center;
+margin: 10px;
+flex: 1;
+min-width: 200px;
+position: relative;
+z-index: 10;
+}
+.brand2 .title:hover {
+transform: translateY(-10px);
+
+}
+.brand2 img {
+width: 80%;
+height: auto;
+
+}
+.brand2 .title .p-details h4 {
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+color: #200e09;
+margin-top: 10px;
+}
+.brand2 .title .p-details p {
+font-size: 15px;
+font-weight: 400;
+margin-top: 5px;
+color: #cb0000;
+}
+/* brand2 section end here */
+/* new store section start  here */
+.store {
+width: 100%;
+padding: 60px 0px;
+}
+.overlay-content {
+color: #fff;
+position: absolute;
+top: 15%;
+transform: translateY(-50%);
+left: 5%;
+}
+.overlay-content h1 {
+font-size: 40px;
+font-weight: 500;
+margin-top: -115px;
+margin-bottom: 0px;
+left: 10%;
+position: relative;
+}
+.overlay-content p {
+font-size: 25px;
+font-weight: 100;
+margin-bottom: -8px;
+left: 7%;
+position: relative;
+}
+.store img {
+width: 100%;
+height: 500px;
+object-fit: cover;
+margin-top: -100px;
+}
+.first-img {
+width: 100%;
+height: 500px;
+object-fit: cover;
+margin-top: -100px;
+display: block;
+}
+.first-img {
+margin-top: -0px;
+}
+.button-group {
+position: relative;
+display: inline-block;
+background: #fff;
+}
+.custom-btn {
+background: #cecece !important;
+color: #3a3a3a !important;
+font-weight: 400;
+font-size: 10px;
+width: 85px;
+padding: 4px 8px;
+border: none;
+margin-top: 5px;
+left: 8%;
+position: relative;
+}
+/*  new store section end  here */
+/* last section start  here */
+/* last section start  here */
+.last {
+width: 100%;
+padding: 60px 0px;
+}
+.last h5 {
+font-size: 20px;
+font-weight: 300;
+text-align: center;
+padding: 5px;
+}
+.last p {
+font-size: 15px;
+font-weight: 300;
+text-align: center;
+padding: 5px;
+}
+.news-box {
+position: relative;
+overflow: hidden;
+}
+.news-box img {
+width: 100%;
+display: block;
+border-radius: 5px;
+}
+.news-overlay {
+position: absolute;
+bottom: 0;
+width: 100%;
+background: rgba(255, 255, 255, 0.85);
+text-align: center;
+padding: 15px;
+}
+.news-overlay h6 {
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+.news-overlay i {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+flex-wrap: wrap;
+font-style: normal;
+}
+.news-overlay .news-icon {
+display: flex;
+align-items: center;
+font-size: 14px;
+color: #555;
+}
+.news-overlay .news-icon img {
+width: 15px;
+height: 15px;
+margin-right: 8px;
+margin-top: 2px;
+}
+.news-overlay .read-more {
+font-size: 14px;
+font-weight: bold;
+color: #111;
+cursor: pointer;
+}
+/* last section end  here */
+/*footer section  start css here*/
+footer {
+width: 100%;
+padding: 60px 0px;
+background: black;
+text-align: center; /* text central */
+}
+footer .row {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+/* f-item heading */
+footer .f-item h4 {
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 35px;
+color: #fff;
+}
+/* f-item ul */
+footer .f-item ul li {
+list-style: none;
+}
+footer .f-item ul li a {
+font-size: 14px;
+margin-bottom: 10px;
+color: #fff;
+display: inline-block;
+}
+footer .f-item p {
+font-size: 15px;
+font-weight: 300;
+line-height: 2;
+margin-bottom: 32px;
+color: #fff;
+}
+/* f-icon heading */
+footer .f-icon h4 {
+color: #fff;
+margin-bottom: 15px;
+font-size: 18px;
+}
+/* social links container */
+footer .f-icon .social-links {
+display: flex;
+gap: 10px;
+justify-content: center;
+flex-wrap: nowrap;
+}
+/* individual social icons */
+footer .f-icon .social-links a {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+padding: 0px;
+background-color: #222;
+border-radius: 2%;
+border: 2px solid #fff;
+transition: all 0.3s ease;
+flex-shrink: 0;
+}
+/* icon inside link */
+footer .f-icon .social-links a i {
+color: #fff;
+font-size: 18px;
+}
+/* hover effect */
+footer .f-icon .social-links a:hover {
+background-color: var(--primarycolor);
+border-color: var(--primarycolor);
+transform: scale(1.1);
+}
+/* Copyright */
+footer .copyright {
+margin-top: 32px;
+text-align: center;
+}
+footer .copyright p {
+font-size: 15px;
+color: #7f7f7f;
+font-weight: 300;
+line-height: 2;
+}
+/*footer section  end css here*/
